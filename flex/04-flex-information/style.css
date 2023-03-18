@@ -7,10 +7,6 @@ img {
   height: 100px;
 }
 
-.title {
-  font-size: 36px;
-  font-weight: 900;
-}
 
 /* do not edit this footer */
 .footer {
@@ -23,4 +19,37 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 32px;
+  
+}
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  flex-wrap: wrap;
+}
+
+
+.containerA,
+.containerB,
+.containerC,
+.containerD{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.containerA img,
+.containerB img,
+.containerC img,
+.containerD img{
+  align-self: center;
 }
