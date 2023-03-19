@@ -35,7 +35,27 @@ body {
   box-sizing: border-box;
   display: flex;
   flex: 1;
-  gap: 16px;
+  
+
+}
+.card-container{
+  margin: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 20px;
+  gap: 32px;
+  height: 100vh;
+  justify-content: space-around;
+}
+.card{
+  font-size: 24px;
+  padding: 32px;
+  border: #e0e0e0 solid 1px;
+  border-radius: 10px;
+  box-shadow: #d4d3d3 20px;
+  width: 500px;
+  height: 500px;
+  justify-self: flex-start;
 
 }
 
@@ -59,28 +79,6 @@ ul{
 .sidebar-item{
   box-sizing: border-box;
   padding: 16px;
-}
-
-.container-cards{
-  box-sizing: border-box;
-  margin: 16px;
-  display: flex;
-  justify-content: space-around;
-  gap: 16px;
-  
-  flex-wrap: wrap;
-
-}
-
-.card {
-  width: 200px;
-  height: 250px;
-  padding: 32px;
-  display: flex;
-  justify-content: flex-start;
-  border: #eeeeee solid 1px;
-  border-radius: 10px;
-
 }
 
 a{
